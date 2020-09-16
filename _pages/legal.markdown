@@ -14,4 +14,4 @@ Als je wil inschrijven vragen we een aantal gegevens van jou en van jouw team. D
 We gebruiken je mailadres om jullie uit te nodigen voor Slack,
 
 ## Verantwoordelijke
-Cityhacks is een organisatie van Stad Brugge - Dienst economie. Met vragen of opmerkingen kan je terecht bij Cindy via [Katleen.Maes@brugge.be](mailto:Katleen.Maes@brugge.be)
+Cityhacks is een organisatie van Stad Brugge - Dienst economie. Met vragen of opmerkingen kan je terecht bij Katleen via [Katleen.Maes@brugge.be](mailto:Katleen.Maes@brugge.be)
