@@ -1,0 +1,54 @@
+---
+permalink: pretty
+markdown: kramdown
+exclude:
+  - Gem*
+  - "*.lock"
+  - "*rb"
+  - ".git*"
+  - "*.md"
+  - "*.json"
+  - node_modules
+  - vendor
+  - gulp*
+  - ".jekyll-metadata"
+  - ".*"
+timezone: UTC
+author: Nerdlab
+title: "CityHacks 2019"
+description: "Hoe meet je cultuurbeleving? Tijdens Cityhacks 2019 ga we in teams opzoek naar antwoorden."
+url: "https://cityhacks.be"
+navigation:
+  - title: Opdracht
+    url: "index.html#opdracht"
+  - title: Programma
+    url: "index.html#programma"
+  - title: Open data
+    url: "index.html#data"
+navigation-cta:
+  - title: Schrijf in
+    url: "index.html#inschrijven"
+
+social:
+  twitter_username: nerdlab9000
+  instagram_username: nerdlab9000
+legal:
+  year: '2019'
+  company: 'Nerdlab vzw'
+  email: 'info@nerdlab.be'
+  address: 'Katwilgenlaan 7a'
+  city: '9000 Ghent'
+  phone: '+32 486 22 72 02'
+  btw: 'BE 0562.981.862'
+labels:
+  legal: Kleine lettertjes
+collections:
+  pages:
+    title: Pages
+    output: true
+defaults:
+- scope:
+    path: ""
+    type: pages
+  values:
+    is_page: true

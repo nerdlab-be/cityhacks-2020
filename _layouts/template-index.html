@@ -1,0 +1,177 @@
+---
+layout: default
+---
+
+<section class="c-hero c-illustration">
+  <span class="c-illustration__item c-illustration__item--top-right" role="presentation" aria-hidden="true"></span>
+  <span class="c-illustration__item c-illustration__item--bottom-left" role="presentation" aria-hidden="true"></span>
+  <div class="c-hero__image">
+    <img src="{{ page.hero.image }}" alt="{{ page.hero.imageAlt }}">
+  </div>
+  <div class="c-hero__body o-row-large">
+    <div class="o-wrapper o-wrapper--large">
+      <div class="o-box o-box--flush">
+        <h1 class="c-page-title">{{ page.hero.title }}</h1>
+        <ul class="o-list-bare c-list-big">
+          <li class="c-list-big__item">{% include atom.icon.html value="date" %} {{ page.hero.date }}</li>
+          <li class="c-list-big__item"><a href="{{ page.hero.locationLink }}" class="c-link c-link--faux c-link--negative" target="_blank">{% include atom.icon.html value="location" %} {{ page.hero.location}}</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="opdracht" class="o-row-large s-theme-secondary">
+  <div class="o-wrapper o-wrapper--large">
+    <div class="o-layout u-margin-bottom">
+      <div class="o-layout__item u-2/3@medium">
+        <h2 class="c-title">{{ page.opdracht.title }}</h2>
+        <p class="c-lead u-margin-bottom-none">
+          {{ page.opdracht.para }}
+        </p>
+      </div>
+    </div>
+    <div class="o-layout o-layout--small">
+      <div class="o-layout__item u-2/3@medium u-push-1/3@medium">
+        <h3 class="c-subtitle">{{ page.opdracht.subtitle }}</h3>
+        <ul class="o-list-bare c-list u-margin-bottom">
+          {% for item in page.opdracht.list %}
+          <li class="c-list__item">{% include atom.icon.html value="check" %} {{ item.para }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="o-layout o-layout--flush s-theme-secondary">
+  {% for item in page.opdracht.images %}
+  <div class="o-layout__item u-1/3">
+    <div class="o-crop o-crop--fit o-crop--16:9 c-image c-image--one">
+      <img src="{{ item.image }}" alt="{{ item.alt }}" class="o-crop__content o-crop__content--center">
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<section id="programma" class="o-row-large s-theme-white c-illustration">
+  <span class="c-illustration__item c-illustration__item--top-left" role="presentation" aria-hidden="true"></span>
+  <span class="c-illustration__item c-illustration__item--bottom-right" role="presentation" aria-hidden="true"></span>
+  <div class="o-wrapper o-wrapper--large">
+    <h2 class="c-title u-margin-bottom u-margin-bottom-large@medium u-text-center">{{ page.program.title }}</h2>
+    <div class="o-layout o-layout--small">
+      <div class="o-layout__item">
+        <article class="c-card c-card--neutral">
+          <div class="o-box">
+            <h3 class="c-subtitle c-subtitle--border">{{ page.program.dataTitle }} <span class="c-date">{{ page.program.dataDate }}</span></h3>
+            <p class="c-para">{{ page.program.dataPara }}</p>
+          </div>
+        </article>
+      </div>
+      <div class="o-layout__item u-1/2@medium">
+        <article class="c-card">
+          <div class="o-box">
+            <h3 class="c-subtitle c-subtitle--border">{{ page.program.friday }} <span class="c-date">{{ page.program.fridayDate }}</span></h3>
+            <ul class="o-list-bare c-list-agenda">
+              {% for item in page.program.scheduleFriday %}
+              <li class="c-list-agenda__item"><strong class="c-badge">{{ item.hour }}</strong> {{ item.para }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </article>
+      </div>
+      <div class="o-layout__item u-1/2@medium">
+        <article class="c-card">
+          <div class="o-box">
+            <h3 class="c-subtitle c-subtitle--border">{{ page.program.saturday }} <span class="c-date">{{ page.program.saturdayDate }}</span></h3>
+            <ul class="o-list-bare c-list-agenda">
+              {% for item in page.program.scheduleSaturday %}
+              <li class="c-list-agenda__item"><strong class="c-badge">{{ item.hour }}</strong> {{ item.para }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="coaches" class="o-row-large s-theme-primary-xlight">
+  <div class="o-wrapper o-wrapper--large">
+    <h2 class="c-title u-margin-bottom u-margin-bottom-large@medium u-text-center">{{ page.coaches.title }}</h2>
+    <ul class="o-layout o-layout--center u-margin-bottom">
+      {% comment %}
+      Edit coaches in _data/coaches.yml
+      {% endcomment %}
+      {% for item in site.data.coaches %}
+      <li class="o-layout__item u-1/2@small u-1/3@large">
+        {% include molecule.card.html image=item.image title=item.title body=item.body footnote=item.footnote link=item.link %}
+      </li>
+      {% endfor %}
+    </ul>
+    <p class="c-lead u-text-center u-margin-bottom-none">
+      <a href="{{ page.coaches.linkHref }}" class="c-link c-link--faux">{{ page.coaches.link }}</a>
+    </p>
+  </div>
+</section>
+
+<section id="inschrijven" class="o-row-large s-theme-primary-dark c-illustration">
+  <span class="c-illustration__item c-illustration__item--top-right-alt" role="presentation" aria-hidden="true"></span>
+  <span class="c-illustration__item c-illustration__item--bottom-left-alt" role="presentation" aria-hidden="true"></span>
+  <div class="o-wrapper">
+    <div class="o-box u-text-center">
+      <h2 class="c-title">{{ page.subscribe.title }}</h2>
+      <p class="c-lead">
+        {{ page.subscribe.para }}
+      </p>
+      <p>
+        <a href="{{ page.subscribe.linkHref }}" class="c-btn c-btn--secondary c-btn--large">{{ page.subscribe.link }} {% include atom.icon.html value="arrow" %}</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="data" class="o-row-large s-theme-secondary-light c-illustration">
+  <span class="c-illustration__item c-illustration__item--bottom-right-alt" role="presentation" aria-hidden="true"></span>
+  <div class="o-wrapper o-wrapper--large">
+    <div class="o-box o-box--flush">
+      <h2 class="c-title c-title--border u-margin-bottom u-text-center">Open data en tools</h2>
+      <div class="o-layout u-divider-top">
+        <div class="o-layout__item u-1/3@medium">
+          <h3 class="c-small-title">Alles over bezoeken</h3>
+          <p class="c-para-small">Alle Brugse cultuurhuizen gebruiken hetzelfde systeem om bezoekers te registreren. Hier kunnen we welke voorstellingen of optredens mensen gaan bekijken zijn: van Concertgebouw over Stadschouwburg tot Biekorf. </p>
+          <p class="c-para-small">Daarnaast zijn alle voorstellingen die ooit in het concertgebouw hebben plaats gevonden proper opgelijst met metadata en al!
+</p>
+          <p class="c-para-small">In 2015 deed Ugent een bevraging van iedereen die langskwam en daar komen we meer te weten over de levensstijl van de bezoekers
+ </p>
+
+          <ul class="o-list-bare c-list-small">
+            <li class="c-list-small__item">Data binnen kort beschikbaar</li>
+           </ul>
+        </div>
+        <div class="o-layout__item u-1/3@medium">
+          <h3 class="c-small-title js-collapsed__title">Bouw het zelf</h3>
+          <p class="c-para-small">Goesting om een nieuwe dataset op te bouwen? Dat mag ook. Als je aan de slag gaat met sensoren om beleving te meten is het goed dat de data achteraf weer bruikbaar is. Duidelijke structuur, gekuiste info en met goeie metadata. </p>
+          <ul class="o-list-bare c-list-small">
+            <li class="c-list-small__item">Meer hierover in <a href="https://speakerdeck.com/pietercolpaert/an-introduction-to-open-data" target="_blank" class="c-link c-link--faux">de slides van Pieter Colpaert {% include atom.icon.html value="external" %}</a> </li>
+          
+          </ul>
+      
+
+        </div>
+        <div class="o-layout__item u-1/3@medium">
+          <h3 class="c-small-title js-collapsed__title">Nog relevante data</h3>
+          <p class="c-para-small">Binnen verschillende thema's heeft Vlaanderen maar ook de regio rond Brugge verschillende datasets beschikbaar. Gewoon snoepen.</p>
+          <ul class="o-list-bare c-list-small">
+            <li class="c-list-small__item"><a href="https://opendata.vlaanderen.be/dataset?q=milieu" target="_blank" class="c-link c-link--faux">Open data portaal EU {% include atom.icon.html value="external" %}</a>: meer dan 10k datasets over alles wat je op europees niveau wil bijhouden.</li>
+            <li class="c-list-small__item"><a href="https://data.gov.be/nl" target="_blank" class="c-link c-link--faux">Data.gov {% include atom.icon.html value="external" %}</a>: 6500 datasets in allerlei onderwerpen op nationaal niveau</li>
+            <li class="c-list-small__item">Kortrijksanen krijgen cultuurtips op maat, een <a href="https://www.cultuurconnect.be/uitgezocht" target="_blank" class="c-link c-link--faux">onderzoek door Cultuurconnect {% include atom.icon.html value="external" %}</a>. Lezen die handel</li>
+            <li class="c-list-small__item"><a href="https://www.cultuurconnect.be/diensten/mijnleestipper" target="_blank" class="c-link c-link--faux">Leestipper {% include atom.icon.html value="external" %}</a>: een soort discover weekly voor boeken: </li>
+
+            <li class="c-list-small__item">Of snuister door alle data van <a href="https://www.brugge.be/opendata" target="_blank" class="c-link c-link--faux">Stad Brugge {% include atom.icon.html value="external" %}</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

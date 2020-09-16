@@ -1,0 +1,82 @@
+// ==================================
+// #COLORS
+// ==================================
+
+// Tint & shade helper functions (http://bourbon.io/docs/#tint-shade)
+
+// Makes a color lighter
+@function tint($color, $percent) {
+  @return mix(#fff, $color, $percent);
+}
+
+// Makes a color darker
+@function shade($color, $percent) {
+  @return mix(#000, $color, $percent);
+}
+
+
+
+
+
+// Base colors inspired by clrs.cc by @mrmrs_
+$navy                       : #001F3F;
+$blue                       : #0074D9;
+$aqua                       : #7FDBFF;
+$teal                       : #39CCCC;
+$olive                      : #3D9970;
+$green                      : #2ECC40;
+$lime                       : #01FF70;
+$yellow                     : #FFDC00;
+$orange                     : #FF851B;
+$red                        : #FF4136;
+$fuchsia                    : #F012BE;
+$purple                     : #B10DC9;
+$maroon                     : #85144B;
+
+$white                      : #FFFFFF;
+$silver                     : #EDEDEE;
+$gray                       : shade(#818288,10);
+$black                      : #445066;
+
+
+
+
+
+
+// Brand colors
+
+$color-neutral                : $gray;
+$color-neutral-xxlight        : tint($color-neutral,90);
+$color-neutral-xlight         : tint($color-neutral,60);
+$color-neutral-light          : $silver;
+$color-neutral-dark           : $black;
+
+$color-primary                : shade(#96A4BE,10);
+$color-primary-xlight         : tint($color-primary,80);
+$color-primary-light          : #A5C4E8;
+$color-primary-dark           : shade(#556480,25);
+
+$color-secondary              : shade(#8CC414,10);
+$color-secondary-xlight       : #E7E197;
+$color-secondary-light        : #BCD17A;
+$color-secondary-dark         : shade($color-secondary,20);
+
+
+
+
+
+
+
+// UI colors
+
+$color-success              : $green;
+$color-success-light        : tint($color-success,10%);
+$color-success-dark         : shade($color-success,10%);
+
+$color-error                : $red;
+$color-error-light          : tint($color-error,10%);
+$color-error-dark           : shade($color-error,10%);
+
+$color-notice               : $orange;
+$color-notice-light         : tint($color-notice,10%);
+$color-notice-dark          : shade($color-notice,10%);
