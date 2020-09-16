@@ -8,8 +8,8 @@ hero:
   date: "13 en 14 november start om 9u"
   location: "De Republiek"
   locationLink: "https://republiekbrugge.be/"
-    location: "Het Concertgebouw"
-  locationLink: "https://www.concertgebouw.be/"
+  locationTwo: "Het Concertgebouw"
+  locationTwoLink: "https://www.concertgebouw.be/"
   image: "/assets/img/jpg/cultuur_hero.jpg"
   imageAlt: "Cityhacks 2020"
 opdracht:
@@ -80,4 +80,3 @@ subscribe:
   link: "Check de presentaties"
   linkHref: "https://docs.google.com/presentation/d/1snIu0h6BUL0dI3QdD5XyClBagf1pL3kcM4DUm-J64Bk/edit?usp=sharing"
 ---
-
