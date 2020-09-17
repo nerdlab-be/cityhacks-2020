@@ -1,18 +1,9 @@
-- title: Pieter Vander Vennet
-  body: Pieter Vander Vennet studeerde af als wiskundig informaticus. Via Civic Labs Brussels kwam hij zelf fijnstofsensoren bouwde. In Brugge richte hij een zelfs een Hackerspace op.
-  image: jpg/pieter.jpg
-  link: "https://github.com/pietervdvn"
 
-- title: Marie De Vos
+- title: Marie De Vos (tentative)
   body: Marie is ontwerper met een voorliefde voor animatie. Ze draait via <a href='https://osoc.be/2019'>oSoc</a> al even mee in de Open Data community waar ze ook student coach was deze zomer.
   image: jpg/marie.jpg
   link: "hhttps://www.behance.net/mariedevos"
-  
-- title: Jens Pauwels
-  body: Jens is een software ontwikkelaar met een passie voor IoT. Tijdens de vorige editie van cityhacks kreeg hij het idee voor een chatbot te ontwikkelen die tot op de dag van vandaag zijn electronica thuis bediend.
-  image: jpg/jens.jpg
-  link: "https://github.com/jensPauwels"
-  
+
 - title: Astrid Sercu
   body: Astrid is een gediplomeerd babbelaar. Ze zat ondertussen al drie edities aan het roer van de sociale media van oSoc.
   image: jpg/astrid.jpg
@@ -32,15 +23,15 @@
   body: Benny ontwikkelt software voor een betere dienstverlening bij de Stad Brugge. Digitaliseert en automatiseert de administratieve rompslomp.
   image: jpg/benny.jpg
   link: "http://www.brugge.be/"
-  
-- title: Robin Leblon 
-  body: Robin is verantwoordelijk voor de R&D afdeling bij Citymesh, dat zich onder andere specialiseert in IoT toepassingen voor smart cities.
-  image: jpg/robin.jpg
-  link: "https://www.citymesh.com/"
 
 - title: Inti Valderas Caro 
   body: Inti is een Masterstudent Interaction Design. Hij is intussen 4 jaar actief als freelance digital designer. Zijn focus is om tijdens alle interactieve projecten de gebruiker centraal te zetten.
   image: jpg/inti.jpg
   link: "https://valderas.be/"
+
+- title: Pieter Vander Vennet (workshop)
+  body: Pieter Vander Vennet studeerde af als wiskundig informaticus. Via Civic Labs Brussels kwam hij zelf fijnstofsensoren bouwde. In Brugge richte hij een zelfs een Hackerspace op.
+  image: jpg/pieter.jpg
+  link: "https://github.com/pietervdvn"
   
   
