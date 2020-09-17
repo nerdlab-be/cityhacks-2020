@@ -4,11 +4,11 @@ layout: template-index
 permalink: "/"
 #CONTENT
 hero:
-  title: "Kunst Meten"
+  title: "Expeditie 'Café Sport'"
   date: "13 en 14 november start om 9u"
-  location: "De Republiek"
+  location: "Online via Discord"
   locationLink: "https://republiekbrugge.be/"
-  locationTwo: "Het Concertgebouw"
+  locationTwo: "Youtube"
   locationTwoLink: "https://www.concertgebouw.be/"
   image: "/assets/img/jpg/cultuur_hero.jpg"
   imageAlt: "Cityhacks 2020"
