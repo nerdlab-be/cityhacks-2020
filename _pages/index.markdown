@@ -14,14 +14,14 @@ hero:
   imageAlt: "Cityhacks 2020"
 opdracht:
   title: "De uitdaging:"
-  para: "Je telefoon meet via de stappenteller hoe fit je bent. Je bankapp combineert je gegevens om te tonen hoe rijk je bent. Maar hoe kan je meten welk boek, schilderij of voorstelling jou overweldigt? </br>
-Tijdens Cityhacks gaan we samen op zoek naar hoe je cultuurbeleving kan meten. Met sensoren of door bestaande data te remixen. We gieten onze oplossingen in concepten en prototypes."
-  subtitle: "Wij zorgen alvast voor:"
+  para: "Sporters heb je op alle niveaus, van de professionele voetballer tot de café shotter. We vinden vooral deze laatste erg interessant. Veel mensen sporten ook zonder zich aan te sluiten bij een club, denk aan de lopers aan de Brugse vesten of vrienden die samen fietsen. <br>
+Tijdens Cityhacks gaan we op zoek waar, hoe en waarom deze sporters beweging en ontwerpen digitale producten of diensten om hen te ondersteunen."
+  subtitle: "Hoe gaan we dat doen?"
   list:
-    - para: "Een inspirerende werkplek in het centrum van de stad."
-    - para: "Eten en drinken, ja zelfs pintjes"
-    - para: "Eén coach die jullie team opvolgt"
-    - para: "Een professionele jury"
+    - para: "In teams van zes mét een gespecialiseerde coach"
+    - para: "Helemaal via het internet, vanuit uw goeie stoel"
+    - para: "Met een duidelijk stappenplan"
+    - para: "Én een verassing voor elk van jullie"
   images:
     - image: "/assets/img/jpg/ch2018_1.jpg"
       alt: "Cityhacks: team"
@@ -32,8 +32,8 @@ Tijdens Cityhacks gaan we samen op zoek naar hoe je cultuurbeleving kan meten. M
 program:
   title: "Op het programma:"
   dataTitle: "Data Dive"
-  dataDate: "06/11"
-  dataPara: "Op woensdag 6 november duiken we al eens in de beschikbare data en geven we de volledige uitleg hoe we het gaan aanpakken. Afspraak om 19u in de Republiek. <strong>!Opgepast, hiervoor moet je trappen doen!</strong>"
+  dataDate: "28/10"
+  dataPara: "Op woensdag 28 ot duiken we al eens in de beschikbare data en geven we de volledige uitleg hoe we het gaan aanpakken. Afspraak om 19u in de Republiek. <strong>!Opgepast, hiervoor moet je trappen doen!</strong>"
   friday: "Vrijdag in de Republiek"
   fridayDate: "22/11"
   scheduleFriday:
