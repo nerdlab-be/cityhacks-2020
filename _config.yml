@@ -15,8 +15,8 @@ exclude:
   - ".*"
 timezone: UTC
 author: Nerdlab
-title: "CityHacks 2019"
-description: "Hoe meet je cultuurbeleving? Tijdens Cityhacks 2019 ga we in teams opzoek naar antwoorden."
+title: "CityHacks 2020"
+description: "Welkom in Café sport, voor alle sporters zonder club"
 url: "https://cityhacks.be"
 navigation:
   - title: Opdracht
@@ -26,7 +26,7 @@ navigation:
   - title: Open data
     url: "index.html#data"
 navigation-cta:
-  - title: Resultaten
+  - title: Inschrijven
     url: "index.html#inschrijven"
 
 social:
@@ -36,7 +36,7 @@ legal:
   year: '2019'
   company: 'Nerdlab vzw'
   email: 'info@nerdlab.be'
-  address: 'Katwilgenlaan 7a'
+  address: 'Nieuwland 65'
   city: '9000 Ghent'
   phone: '+32 486 22 72 02'
   btw: 'BE 0562.981.862'
