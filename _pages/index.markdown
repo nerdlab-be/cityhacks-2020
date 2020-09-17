@@ -10,7 +10,7 @@ hero:
   locationLink: "https://republiekbrugge.be/"
   locationTwo: "Youtube"
   locationTwoLink: "https://www.concertgebouw.be/"
-  image: "/assets/img/jpg/cultuur_hero.jpg"
+  image: "/assets/img/jpg/header.jpg"
   imageAlt: "Cityhacks 2020"
 opdracht:
   title: "De uitdaging:"
@@ -23,11 +23,11 @@ Tijdens Cityhacks gaan we op zoek waar, hoe en waarom deze sporters beweging en 
     - para: "Met een duidelijk stappenplan"
     - para: "Én een verassing voor elk van jullie"
   images:
-    - image: "/assets/img/jpg/ch2018_1.jpg"
+    - image: "/assets/img/jpg/klein1.jpg"
       alt: "Cityhacks: team"
-    - image: "/assets/img/jpg/ch2018_2.jpg"
+    - image: "/assets/img/jpg/klein2.jpg"
       alt: "Cityhacks: coach"
-    - image: "/assets/img/jpg/ch2018_3.jpg"
+    - image: "/assets/img/jpg/klein3.jpg"
       alt: "Cityhacks: pitch"
 program:
   title: "Op het programma:"
