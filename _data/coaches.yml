@@ -1,14 +1,3 @@
-
-- title: Marie De Vos (tentative)
-  body: Marie is ontwerper met een voorliefde voor animatie. Ze draait via <a href='https://osoc.be/2019'>oSoc</a> al even mee in de Open Data community waar ze ook student coach was deze zomer.
-  image: jpg/marie.jpg
-  link: "hhttps://www.behance.net/mariedevos"
-
-- title: Astrid Sercu
-  body: Astrid is een gediplomeerd babbelaar. Ze zat ondertussen al drie edities aan het roer van de sociale media van oSoc.
-  image: jpg/astrid.jpg
-  link: "https://www.linkedin.com/in/astrid-sercu-359813136/"
-  
 - title: Fré Dumazy
   body: Fré heeft als mobile en all-around developer bij Duo heel wat kennis vergaard in verschillende projecten en weet zo de juiste technologieën te kiezen voor het juiste project.
   image: jpg/fre.jpg
@@ -33,5 +22,15 @@
   body: Pieter Vander Vennet studeerde af als wiskundig informaticus. Via Civic Labs Brussels kwam hij zelf fijnstofsensoren bouwde. In Brugge richte hij een zelfs een Hackerspace op.
   image: jpg/pieter.jpg
   link: "https://github.com/pietervdvn"
+  
+- title: Marie De Vos (waarschijnlijk)
+  body: Marie is ontwerper met een voorliefde voor animatie. Ze draait via <a href='https://osoc.be/2019'>oSoc</a> al even mee in de Open Data community waar ze ook student coach was deze zomer.
+  image: jpg/marie.jpg
+  link: "hhttps://www.behance.net/mariedevos"
+
+- title: Astrid Sercu (hopelijk)
+  body: Astrid is een gediplomeerd babbelaar. Ze zat ondertussen al drie edities aan het roer van de sociale media van oSoc.
+  image: jpg/astrid.jpg
+  link: "https://www.linkedin.com/in/astrid-sercu-359813136/"
   
   
