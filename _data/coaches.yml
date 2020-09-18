@@ -1,9 +1,4 @@
-- title: Fré Dumazy
-  body: Fré heeft als mobile en all-around developer bij Duo heel wat kennis vergaard in verschillende projecten en weet zo de juiste technologieën te kiezen voor het juiste project.
-  image: jpg/fre.jpg
-  link: "https://www.duo.be/"
-  
-- title: Carolina Droogendijk
+  - title: Carolina Droogendijk
   body: Carolina bouwt mee aan digitale producten voor de cluster Cultuur bij stad Brugge. Ze zet hiervoor graag de gebruiker centraal en test, meet en verbetert tot deze tevreden is.
   image: jpg/carolina.jpg
   link: "https://be.linkedin.com/in/carolinadroogendijk"
@@ -12,6 +7,11 @@
   body: Benny ontwikkelt software voor een betere dienstverlening bij de Stad Brugge. Digitaliseert en automatiseert de administratieve rompslomp.
   image: jpg/benny.jpg
   link: "http://www.brugge.be/"
+  
+- title: Fré Dumazy
+  body: Fré heeft als mobile en all-around developer bij Duo heel wat kennis vergaard in verschillende projecten en weet zo de juiste technologieën te kiezen voor het juiste project.
+  image: jpg/fre.jpg
+  link: "https://www.duo.be/"
 
 - title: Inti Valderas Caro 
   body: Inti is een Masterstudent Interaction Design. Hij is intussen 4 jaar actief als freelance digital designer. Zijn focus is om tijdens alle interactieve projecten de gebruiker centraal te zetten.
