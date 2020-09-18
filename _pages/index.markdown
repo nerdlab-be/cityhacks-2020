@@ -44,7 +44,7 @@ program:
     - hour: "9u00"
       para: "Start!"
     - hour: "11u00"
-      para: "Sparren met cultuurprofessionals"
+      para: "Sparren met sportprofessionals"
     - hour: "12u00"
       para: "Lunch, kijk eens in de frigo"
     - hour: "14u00"
