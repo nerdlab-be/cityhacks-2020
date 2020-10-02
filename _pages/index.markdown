@@ -78,5 +78,5 @@ subscribe:
   title: "Inschrijven"
   para: "De inschrijvingen gebeuren via Howest, Vives en KULeuven campus Brugge. Je groep registreren doe je GDPR én Covid proof via deze site."
   link: "Registreer je groep"
-  linkHref: "#"
+  linkHref: "https://docs.google.com/forms/d/e/1FAIpQLScco_3mGNzodx4YjctY8FAoWyozYkdPxoxT39jrjdg88XUvgg/viewform?usp=sf_link"
 ---
