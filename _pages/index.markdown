@@ -15,7 +15,7 @@ hero:
 opdracht:
   title: "De uitdaging:"
   para: "Sporters heb je op alle niveaus, van de professionele voetballer tot de café shotter. We vinden vooral deze laatste erg interessant. Veel mensen sporten ook zonder zich aan te sluiten bij een club, denk aan de lopers aan de Brugse vesten of vrienden die samen fietsen. <br>
-Tijdens Cityhacks gaan we op zoek waar, hoe en waarom deze sporters beweging en ontwerpen digitale producten of diensten om hen te ondersteunen."
+Tijdens Cityhacks gaan we op zoek waar, hoe en waarom deze sporters bewegen en ontwerpen digitale producten of diensten om hen te ondersteunen."
   subtitle: "Hoe gaan we dat doen?"
   list:
     - para: "In teams van zes mét een gespecialiseerde coach"
@@ -33,7 +33,7 @@ program:
   title: "Op het programma:"
   dataTitle: "Data Dive"
   dataDate: "28/10"
-  dataPara: "Op woensdag 28 ot duiken we al eens in de beschikbare data en geven we de volledige uitleg hoe we het gaan aanpakken. Afspraak om 19u op Discord. Verwacht je  interessante sprekers en nieuwe vrienden."
+  dataPara: "Op woensdag 28 oktober duiken we al eens in de beschikbare data en geven we de volledige uitleg hoe we het gaan aanpakken. Afspraak om 19u op Discord. Verwacht je  interessante sprekers en nieuwe vrienden."
   friday: "Vrijdag op Discord"
   fridayDate: "13/11"
   scheduleFriday:
