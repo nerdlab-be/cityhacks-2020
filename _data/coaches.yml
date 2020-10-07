@@ -2,45 +2,52 @@
   body: Carolina bouwt mee aan digitale producten voor de cluster Cultuur bij stad Brugge. Ze zet hiervoor graag de gebruiker centraal en test, meet en verbetert tot deze tevreden is.
   image: jpg/carolina.jpg
   link: "https://be.linkedin.com/in/carolinadroogendijk"
-  
-- title: Benny Matthys 
+  label: ""
+
+- title: Benny Matthys
   body: Benny ontwikkelt software voor een betere dienstverlening bij de Stad Brugge. Digitaliseert en automatiseert de administratieve rompslomp.
   image: jpg/benny.jpg
   link: "http://www.brugge.be/"
-  
+  label: ""
+
 - title: Fré Dumazy
   body: Fré heeft als mobile en all-around developer bij Duo heel wat kennis vergaard in verschillende projecten en weet zo de juiste technologieën te kiezen voor het juiste project.
   image: jpg/fre.jpg
   link: "https://www.duo.be/"
+  label: ""
 
-- title: Inti Valderas Caro 
+- title: Inti Valderas Caro
   body: Inti is een Masterstudent Interaction Design. Hij is intussen 4 jaar actief als freelance digital designer. Zijn focus is om tijdens alle interactieve projecten de gebruiker centraal te zetten.
   image: jpg/inti.jpg
   link: "https://valderas.be/"
-  
+  label: ""
+
 - title: Sabrina Poelvoorde
   body: Sabrina brengt als voorzitter van <a href="http://www.brugit.be/">Brug-IT vzw</a> 20 jaar ervaring in digitalisatie mee en is naast zaakvoerder van <a href="http://mentoringsystems.be/diensten/">Mentoring Systems</a> ook blockchain-consultant bij <a href="http://trustandchain.be/home/">Trust and Chain</a>.
   image: jpg/sabrina.jpg
   link: "http://www.brugit.be/"
+  label: ""
 
 - title: Ann Deraedt
   body: Ann is de huisspecialist “digitale skills“ voor de studenten Netwerkeconomie bij de Howest. Ze krijgt er niet genoeg van haar passie voor de digitale transformatie uit te dragen en anderen goesting te doen krijgen er efficiënt mee aan de slag te gaan.
   image: jpg/ann.jpg
   link: "https://www.howest.be/nl/opleidingen/bachelor/netwerkeconomie/"
+  label: ""
 
 - title: Pieter Vander Vennet (workshop)
   body: Pieter Vander Vennet studeerde af als wiskundig informaticus. Via Civic Labs Brussels kwam hij zelf fijnstofsensoren bouwde. In Brugge richte hij een zelfs een Hackerspace op.
   image: jpg/pieter.jpg
   link: "https://github.com/pietervdvn"
-  
+  label: ""
+
 - title: Marie De Vos (waarschijnlijk)
   body: Marie is ontwerper met een voorliefde voor animatie. Ze draait via <a href='https://osoc.be/2019'>oSoc</a> al even mee in de Open Data community waar ze ook student coach was deze zomer.
   image: jpg/marie.jpg
   link: "hhttps://www.behance.net/mariedevos"
+  label: ""
 
 - title: Astrid Sercu (hopelijk)
   body: Astrid is een gediplomeerd babbelaar. Ze zat ondertussen al drie edities aan het roer van de sociale media van oSoc.
   image: jpg/astrid.jpg
   link: "https://www.linkedin.com/in/astrid-sercu-359813136/"
-  
-  
+  label: ""

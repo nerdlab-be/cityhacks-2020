@@ -7,11 +7,12 @@ hero:
   title: "Expeditie 'Café Sport'"
   date: "13 en 14 november start om 9u"
   location: "Online via Discord"
-  locationLink: "https://republiekbrugge.be/"
+  locationLink: "#!"
   locationTwo: "Youtube"
-  locationTwoLink: "https://www.concertgebouw.be/"
+  locationTwoLink: "#!"
   image: "/assets/img/jpg/header.jpg"
   imageAlt: "Cityhacks 2020"
+  imageCredits: '© <a href="http://www.cafewelkom.be/" target="_blank" rel="noopener noreferrer">Café de Welkom</a>. Foto van <a href="https://www.instagram.com/jeanvancleemput/" target="_blank" rel="noopener noreferrer">@jeanvancleemput</a>'
 opdracht:
   title: "De uitdaging:"
   para: "Sporters heb je op alle niveaus, van de professionele voetballer tot de café shotter. We vinden vooral deze laatste erg interessant. Veel mensen sporten ook zonder zich aan te sluiten bij een club, denk aan de lopers aan de Brugse vesten of vrienden die samen fietsen. <br>

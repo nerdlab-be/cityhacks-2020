@@ -3135,6 +3135,32 @@ table {
   }
 }
 
+.c-hero__credits {
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1.71429;
+  font-family: "IBM Plex Mono", sans-serif;
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  color: #c7c8ca;
+  background-color: rgba(68, 80, 102, 0.9);
+  border-radius: .3rem;
+  display: block;
+  padding: 2px 6px;
+  max-width: 60%;
+}
+
+.c-hero__credits,
+.c-hero__credits > a {
+  color: #c7c8ca;
+}
+
+.c-hero__credits > a:hover,
+.c-hero__credits > a:focus {
+  text-decoration: none;
+}
+
 .c-hero__body {
   position: absolute;
   top: 50%;

@@ -7,6 +7,11 @@
   </div>
   <div class="o-box c-card__body">
     <h3 class="c-subtitle u-margin-bottom-small"><a href="{{ include.link }}" class="c-link c-link--bare c-card__link">{{ include.title }}</a></h3>
+    {% unless include.label == "" %}
+    <p class="c-para u-margin-top-none">
+      <strong class="c-badge">{{ include.label }}</strong>
+    </p>
+    {% endunless %}
     <p class="c-para">​{{ include.body }}</p>
   </div>
 </article>

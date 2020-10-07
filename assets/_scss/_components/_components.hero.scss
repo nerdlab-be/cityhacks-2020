@@ -41,6 +41,30 @@
     }
   }
 
+  .c-hero__credits {
+    @include font-size($tiny);
+    font-family: $font-primary;
+    position: absolute;
+    bottom: $unit-small;
+    right: $unit-small;
+    color: $color-neutral-xlight;
+    background-color: rgba($color-neutral-dark,.9);
+    border-radius: .3rem;
+    display: block;
+    padding: $unit-tiny/3 $unit-tiny;
+    max-width: 60%;
+
+    &,
+    & > a {
+      color: $color-neutral-xlight;
+    }
+
+    > a:hover,
+    > a:focus {
+      text-decoration: none;
+    }
+  }
+
   .c-hero__body {
     position: absolute;
     top: 50%;
