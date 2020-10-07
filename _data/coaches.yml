@@ -34,20 +34,8 @@
   link: "https://www.howest.be/nl/opleidingen/bachelor/netwerkeconomie/"
   label: ""
 
-- title: Pieter Vander Vennet (workshop)
+- title: Pieter Vander Vennet
   body: Pieter Vander Vennet studeerde af als wiskundig informaticus. Via Civic Labs Brussels kwam hij zelf fijnstofsensoren bouwde. In Brugge richte hij een zelfs een Hackerspace op.
   image: jpg/pieter.jpg
   link: "https://github.com/pietervdvn"
-  label: ""
-
-- title: Marie De Vos (waarschijnlijk)
-  body: Marie is ontwerper met een voorliefde voor animatie. Ze draait via <a href='https://osoc.be/2019'>oSoc</a> al even mee in de Open Data community waar ze ook student coach was deze zomer.
-  image: jpg/marie.jpg
-  link: "hhttps://www.behance.net/mariedevos"
-  label: ""
-
-- title: Astrid Sercu (hopelijk)
-  body: Astrid is een gediplomeerd babbelaar. Ze zat ondertussen al drie edities aan het roer van de sociale media van oSoc.
-  image: jpg/astrid.jpg
-  link: "https://www.linkedin.com/in/astrid-sercu-359813136/"
-  label: ""
+  label: "Workshop"
